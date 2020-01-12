@@ -1,3 +1,27 @@
 body {
-    background-color: cadetblue;
+    background-image: url("../images/rutile-city_o.jpg");
+    background-size: cover;
+}
+h1 {
+    color: cyan;
+    font-style: inherit;
+}
+#instuctions {
+    color: rgb(180, 89, 176);
+}
+#randomnum {
+    color: cyan;
+    
+}
+#wincounter {
+    color: blue;
+}
+#losscounter{
+    color: crimson;
+}
+#addtotal{
+    color: cyan;
+}
+#addedtotal{
+    color: cyan;
 }
