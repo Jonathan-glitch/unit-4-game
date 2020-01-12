@@ -1,4 +1,3 @@
 body {
-    background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5)),
-                  url("/assets/images/rutile-city_o.jpg");
+    background-color: cadetblue;
 }
