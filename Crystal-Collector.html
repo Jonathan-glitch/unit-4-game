@@ -12,27 +12,42 @@
     <title>Cristal Colector</title>
 </head>
 <body>
-    
+    <!-- this is the headder of the page game -->
     <H1>Welcome This Is The Crystal Collector Game</H1>
-    <pre>
-    <strong><p id="instuctions">
-    You will be given a random number at the start of the Game.
 
-    There are four crystals Below.By clicking on a Crystal you will add a specific amount of points to your total score.
+    <!-- instructions of the gome -->
+    <pre><un id="instuctions"><strong>
+    <li>You will be given a random number at the 
+    start of the Game.</li>
 
-    You win the game by matching your total score goes abovethe random number.
+    <li>There are four crystals Below.By clicking on a 
+    Crystal you will add a specific amount of points 
+    to your total score.</li>
 
-    The Value of each Crystal is Hidden from you until you click on it.
+    <li>You win the game by matching your total 
+    score goes abovethe random number.</li>
 
-    Each Time when the game starts, The game will change the value of each Crystal</p></strong>
-    </pre>
+    <li>The Value of each Crystal is Hidden from you 
+    until you click on it.</li>
+
+    <li>Each Time when the game starts, The game will 
+    change the value of each Crystal</li></strong>
+    </un></pre>
+
+    <!-- the games randomly generated score -->
     <h2 id="randomnum">0</h2>
-    <button type="button" class="btn btn-secondary"><img src="./assets/images/blue_crystal-removebg-preview.png" alt="bluecrystal" style="height: 200px;width: 200px;"></button>
-    <button type="button" class="btn btn-secondary"><img src="./assets/images/pink-gem.png" alt="pink-gem" style="height: 200px;width: 200px;"></button>
-    <button type="button" class="btn btn-secondary"><img src="./assets/images/green emerald.jpeg" alt="greenemerald" style="height: 200px;width: 200px;"></button>
+
+    <!-- the bottons using bootstrap -->
+    <button type="button" class="btn btn-secondary"><img src="./assets/images/blue_crystal-removebg-preview.jpg" alt="bluecrystal" style="height: 200px;width: 200px;"></button>
+    <button type="button" class="btn btn-secondary"><img src="./assets/images/pink-gem.webp" alt="pink-gem" style="height: 200px;width: 200px;"></button>
+    <button type="button" class="btn btn-secondary"><img src="./assets/images/green emerald.jpg" alt="greenemerald" style="height: 200px;width: 200px;"></button>
     <button type="button" class="btn btn-secondary"><img src="./assets/images/smoky-quartz-mineral-crystal-crystal.jpg" alt="smokyquartz" style="height: 200px;width: 200px;"></button>
+
+    <!-- users score area -->
     <h2 id="wincounter">wins:0</h2>
     <h2 id="losscounter">Losses:0</h2>
+
+    <!-- the users total added by pressing the bottons -->
     <h2 id="addtotal">Your Total Score is:</h2>
     <h2 id="addedtotal">0</h2>
 </body>
