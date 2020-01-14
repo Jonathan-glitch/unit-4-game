@@ -10,10 +10,14 @@ h1 {
 }
 #instuctions {
     color: rgb(180, 89, 176);
+    display: table;
+    justify-content: space-between;
 }
-#randomnum {
+.targetH{
+    color: turquoise;
+}
+#targetNum {
     color: cyan;
-    
 }
 #wincounter {
     color: blue;
@@ -21,9 +25,9 @@ h1 {
 #losscounter{
     color: crimson;
 }
-#addtotal{
+.counter {
     color: cyan;
 }
-#addedtotal{
+#counter{
     color: cyan;
 }
