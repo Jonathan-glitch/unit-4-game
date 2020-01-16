@@ -31,3 +31,8 @@ h1 {
 #counter{
     color: cyan;
 }
+
+.crystal-img {
+    width: 250px;
+    height: 250px;
+}
