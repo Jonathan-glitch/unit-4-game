@@ -69,6 +69,8 @@ console.log("crystal here !!  $(this).attr('data-crystalvalue')", $(this).attr("
     wins++
     $("#wincounter").text("You win!" + wins);
     alert('YOU WIN!')
+    document.location.reload();
+    clearInterval(interval); // Needed for Chrome to end game
     
     //$('#wincounter').text('Wins: ' + wins)
   }
@@ -77,6 +79,8 @@ console.log("crystal here !!  $(this).attr('data-crystalvalue')", $(this).attr("
     looses++
     $("#losscounter").text("You lose!!" + looses);
     alert('YOU LOOSE')
+    document.location.reload();
+    clearInterval(interval); // Needed for Chrome to end game
     
     //$('#looscounter').text('Looses: ' + looses)
   }
